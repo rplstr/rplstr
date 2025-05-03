@@ -11,6 +11,9 @@ I do not have much to say about myself.
 
 $ ./activity/languages
 <!-- GITHUB_LANGUAGE_STATS_START -->
+Zig     ███████████████████░  97.9%
+Python  ░░░░░░░░░░░░░░░░░░░░  1.3%
+
 <!-- GITHUB_LANGUAGE_STATS_END --> 
 
 $ exit
