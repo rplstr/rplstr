@@ -1,27 +1,18 @@
-## Hi there 👋
-
-<!--
-**rplstr/rplstr** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
-
-
-<!-- GITHUB_LANGUAGE_STATS_START -->
-## Languages
-
 ```bash
-Zig     ███████████████████░  97.9%
-Python  ░░░░░░░░░░░░░░░░░░░░  1.3%
-```
+$ whoami
+rplstr
 
+$ ls
+activity/ about/
+
+$ cat about/summary
+I am a developer. A programmer. Sometimes bad, but I am trying.
+I do not have much to say about myself.
+
+$ ./activity/languages
+<!-- GITHUB_LANGUAGE_STATS_START -->
 <!-- GITHUB_LANGUAGE_STATS_END -->
+
+$ exit
+Goodbye!
+```
