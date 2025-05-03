@@ -99,8 +99,6 @@ def generate_language_stats_markdown(language_stats):
         
         output += f"{padded_language}  {bar}  {formatted_percentage}\n"
     
-    output += ""
-    
     return output
 
 def update_github_readme(content):
@@ -127,13 +125,12 @@ def update_github_readme(content):
         
         if start_marker in current_content and end_marker in current_content:
             
-            start_idx = current_content.find(start_marker)
-            end_idx = current_content.find(end_marker) + len(end_marker)
+            start_idx = current_content.find(start_marker) + len(start_marker)
+            end_idx = current_content.find(end_marker)
             
             new_content = (
                 current_content[:start_idx] + 
-                start_marker + "\n" + content + "\n" + 
-                end_marker + 
+                "\n" + content + "\n" + 
                 current_content[end_idx:]
             )
         else:
