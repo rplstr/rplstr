@@ -16,3 +16,10 @@ Python  ░░░░░░░░░░░░░░░░░░░░  1.3%
 $ exit
 Goodbye!
 ```
+
+
+<!-- GITHUB_LANGUAGE_STATS_START -->
+Zig     ███████████████████░  97.9%
+Python  ░░░░░░░░░░░░░░░░░░░░  1.3%
+
+<!-- GITHUB_LANGUAGE_STATS_END -->
