@@ -14,3 +14,14 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
+
+
+<!-- GITHUB_LANGUAGE_STATS_START -->
+## Languages
+
+```bash
+Zig     ███████████████████░  97.9%
+Python  ░░░░░░░░░░░░░░░░░░░░  1.3%
+```
+
+<!-- GITHUB_LANGUAGE_STATS_END -->
