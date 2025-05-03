@@ -84,7 +84,7 @@ def generate_language_stats_markdown(language_stats):
     max_language_length = max(len(lang[0]) for lang in language_stats)
     
     
-    output = "## Languages\n\n```bash\n"
+    output = ""
     
     for language, bytes_count, percentage in language_stats:
         
@@ -99,7 +99,7 @@ def generate_language_stats_markdown(language_stats):
         
         output += f"{padded_language}  {bar}  {formatted_percentage}\n"
     
-    output += "```\n"
+    output += ""
     
     return output
 
